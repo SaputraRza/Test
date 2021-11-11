@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 132.716 sec <<< FAILURE! - in TestSuite
+feature(com.photon.runner.ExtentReportRunner)  Time elapsed: 131.781 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.Exception: Verifikasi Login pop up is displayed: False
+Caused by: java.lang.Exception: Verifikasi Login pop up is displayed: False
+

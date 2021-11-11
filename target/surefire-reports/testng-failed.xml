@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [HorizonSuite]">
+  <test name="Photon_Application">
+    <classes>
+      <class name="com.photon.runner.ExtentReportRunner"/>
+    </classes>
+  </test> <!-- Photon_Application -->
+  <test name="Photon_Application(failed)">
+    <classes>
+      <class name="com.photon.runner.ExtentReportRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.photon.runner.ExtentReportRunner -->
+    </classes>
+  </test> <!-- Photon_Application(failed) -->
+</suite> <!-- Failed suite [HorizonSuite] -->
